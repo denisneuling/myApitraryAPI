@@ -1,6 +1,6 @@
-# apitrary-orm-sample
+# my apitrary api
 
-Maven parent project, which contains how to use the [Apitrary ORM Library](https://github.com/denisneuling/apitrary.jar/tree/master/apitrary-orm).
+Dumb app using apitrary baas
 
 ### Requirements
 ---
@@ -18,5 +18,15 @@ Descriptions can be found here:
 For Maven: [Building a Project with Maven](http://maven.apache.org/run-maven/index.html)
 
 
-### Spy out the [code](https://github.com/denisneuling/apitrary-orm-sample/tree/master/src/main/java/com/apitrary/orm/sample)!
+### Getting started
 ---
+
+1. Run maven install to fetch tha dependencies 
+
+        $ mvn clean install
+
+2. Have a look at the com.apitrary.orm.r.Runner class and modify the api id and key.
+
+3. Create some Entities! (Some pojos at the project as well as at the apitrary launchpad)
+
+4. Use it. *(Have a look at the containing shell scripts or just run it into your IDE)*
